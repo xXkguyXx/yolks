@@ -22,7 +22,7 @@
 
 # From https://github.com/ccarney16/pterodactyl-images
 
-FROM    --platform=$TARGETOS/$TARGETARCH ghcr.io/graalvm/graalvm-community:23-ol9
+FROM    --platform=$TARGETOS/$TARGETARCH container-registry.oracle.com/graalvm/jdk:23-ol9
 
 LABEL   author="Karan Singh" maintainer="xxkguyxxdev@gmail.com"
 
